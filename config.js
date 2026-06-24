@@ -3,16 +3,15 @@
 // ============================================
 
 const CONFIG = {
-    valentineName: "Айбийкоу",
+    valentineName: "Акмаржан",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Хочешь ли со мной пойти на свидание?💝",
+    pageTitle: "Не протива ли поделить приятный день со мной?(аххахаха)",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
         bears: ['🧸', '🐻']                       // Cute bear emojis
     },
 
@@ -20,18 +19,18 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "А ты меня любишь вообще?",                                    // First interaction
+            text: "Нравлюсь как человек, ну немного? (кринж да?)",                                    // First interaction
             yesBtn: "ну,типо да",                                             // Text for "Yes" button
-            noBtn: "НЕЕЕЕЕЕТ, НЕТТ, ФУУУ!!",                                               // Text for "No" button
-            secretAnswer: "Я не люблю тебя, Я ТЕБЯ ОБОЖАЮ ММАХ ❤️"           // Secret hover message
+            noBtn: "НЕЕЕЕЕЕТ,ФУУУ, МНЕ СТРЕМНО ОТ ТЕБЯ!!",                                               // Text for "No" button
+            secretAnswer: " ВАУ, С ТОБОЙ? Я ТАК РАДААА) "           // Secret hover message
         },
         second: {
-            text: "Тогда насколько ты меня любишь?",                          // For the love meter
+            text: "Насколько ты хочешь провести этот день со мной",                          // For the love meter
             startText: "Настолько!",                                   // Text before the percentage
-            nextBtn: "Дальше ❤️"                                         // Text for the next button
+            nextBtn: "БОЛЬШЕ!"                                         // Text for the next button
         },
         third: {
-            text: "Хочешь ли ты пойти со мной на свидание? 🌹", // The big question!
+            text: "Твой конечный ответ? like rizz (кусаю розу в рту*)🌹", // The big question!
             yesBtn: "ДАА",                                             // Text for "Yes" button
             noBtn: "НЕЕ"                                                 // Text for "No" button
         }
@@ -40,16 +39,16 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "ВООООООУУ Настолько меня любишь? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "Еще и еще больше🚀💝",              // Shows when they go past 1000%
-        normal: "И к бесконечтости! 🥰"                           // Shows when they go past 100%
+        extreme: "У ТЕБЯ ТАКОЕ ЖЕЛАНИЕ ЕСТЬ? ВОУ ВОУ САБЫР 🚀",  // Shows when they go past 5000%
+        high: "Чынынле айтсан э. Зачем гордость(ахахахх)",              // Shows when they go past 1000%
+        normal: "Может по больше?"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "УРА! Я самый счастливый человек на планете!!!🎉💝💖💝💓",
-        message: "Теперь, жанусям, как встретимся получишь свой подарок, мнооого поцелуйчиков!",
-        emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
+        title: "УРА! Я знал что ты согласишься)!!!🎉",
+        message: "Теперь просто ждать осталось",
+        emojis: "🎁💖🤗"  // These will bounce around
     },
 
     // Color scheme for the website
