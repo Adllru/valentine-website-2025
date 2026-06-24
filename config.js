@@ -25,12 +25,12 @@ const CONFIG = {
             secretAnswer: " Тебя? НУ КОНЕЧНОО!)) "           // Secret hover message
         },
         second: {
-            text: "Насколько ты хочешь провести этот день со мной",                          // For the love meter
+            text: "Насколько ты хочешь провести день со мной?",                          // For the love meter
             startText: "Настолько!",                                   // Text before the percentage
             nextBtn: "БОЛЬШЕ!"                                         // Text for the next button
         },
         third: {
-            text: "Твой конечный ответ? like rizz (кусаю розу в рту*)🌹", // The big question!
+            text: "Твой конечный ответ? Хочешь поделить один день со мной иль нет? like rizz (кусаю розу во рту*)🌹", // The big question!
             yesBtn: "ДАА",                                             // Text for "Yes" button
             noBtn: "НЕЕ"                                                 // Text for "No" button
         }
