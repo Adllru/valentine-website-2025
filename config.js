@@ -7,7 +7,7 @@ const CONFIG = {
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Не протива ли поделить приятный день со мной?(аххахаха)",
+    pageTitle: "Зову куда то типо?(аххахаха)",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
