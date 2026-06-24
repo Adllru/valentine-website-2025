@@ -19,10 +19,10 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Нравлюсь как человек, ну немного? (кринж да?)",                                    // First interaction
+            text: "Понравился ли, ну немного? (кринж да? я сам угораю)",                                    // First interaction
             yesBtn: "ну,типо да",                                             // Text for "Yes" button
             noBtn: "НЕЕЕЕЕЕТ,ФУУУ, МНЕ СТРЕМНО ОТ ТЕБЯ!!",                                               // Text for "No" button
-            secretAnswer: " ВАУ, С ТОБОЙ? Я ТАК РАДААА) "           // Secret hover message
+            secretAnswer: " Тебя? НУ КОНЕЧНОО!)) "           // Secret hover message
         },
         second: {
             text: "Насколько ты хочешь провести этот день со мной",                          // For the love meter
